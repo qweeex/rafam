@@ -1,0 +1,71 @@
+.carousel{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    &-container{
+        position: relative;
+    }
+    &-wrapper{
+        overflow: hidden;
+    }
+    &-prev{
+        width: 94px;
+        background: #EAD772;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+            background: #d5c15a;
+        }
+        &::before{
+            content: url('/img/arrow-left.png');
+        }
+    }
+    &-next{
+        width: 94px;
+        background: #EAD772;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+            background: #d5c15a;
+        }
+        &::before{
+            content: url('/img/arrow-right.png');
+        }
+    }
+    &-thumb{
+        padding: 25px;
+        position: absolute;
+        border: 1px solid #EAD772;
+        border-bottom: none;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        right: 0;
+        margin: 0 auto;
+        width: max-content;
+        .slide-thumb__active{
+            background: #EAD772 !important;
+        }
+        .slide-thumb{
+            width: 11px;
+            height: 11px;
+            background: #000;
+            border: 1px solid #EAD772;
+            margin-right: 11px;
+            &:nth-last-child(1){
+                margin-right: 0;
+            }
+        }
+    }
+}

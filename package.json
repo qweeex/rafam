@@ -1,0 +1,11 @@
+{
+  "name": "rafam",
+  "version": "1.0.0",
+  "description": "Rafam e-shop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start -server --files 'css/*.css, *.html'"
+  },
+  "author": "",
+  "license": "ISC"
+}

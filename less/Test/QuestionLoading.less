@@ -1,0 +1,69 @@
+
+@keyframes bottle-animate {
+    0%  {
+      background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 500px;
+    }
+}
+.question-loading{
+    margin-top: 127px;
+    margin-bottom: 120px;
+    .loading-bottle{
+        .bottle-desc{
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            color: #020202;
+        }
+        .bottle-title{
+            font-weight: 900;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            color: #020202;
+        }
+        .bottle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin-bottom: 30px;
+            &-animate{
+                position: absolute;
+                bottom: 20px;
+                &__center{
+                    height: 98px;
+                    width: 252px;
+                    background: url('/img/test-loading.png');
+                    display: block;
+                    position: relative;
+                    z-index: 2;
+                    opacity: 0.8;
+                    animation: bottle-animate 6s infinite alternate;
+                    animation-iteration-count: infinite;
+                    transition: all 0.4s;
+                }
+                &__left{
+                    background: linear-gradient(90deg, #ffffff 18.42%, rgba(255, 255, 255, 0) 100%);
+                    width: 58px;
+                    height: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: 5;
+                }
+                &__right{
+                    background: linear-gradient(-90deg, #ffffff 18.42%, rgba(255, 255, 255, 0) 100%);
+                    width: 62px;
+                    height: 100%;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: 6;
+                }
+            }
+        }
+    }
+}

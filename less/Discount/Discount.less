@@ -1,0 +1,73 @@
+.discount{
+    &-title{
+        padding-top: 31px;
+        padding-bottom: 21px;
+        p{
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 49px;
+            background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    &-content{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 50px;
+        &__img{
+            position: relative;
+            z-index: 120;
+        }
+        .info-show{
+            margin-top: 0 !important;
+        }
+        &__info{
+            padding-left: 140px;
+            padding-right: 170px;
+            margin-top: -250px;
+            transition: all 0.4s;
+            .info-title{
+                padding-top: 49px;
+                p{
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 51px;
+                    color: #020202;
+                }
+            }
+            .info-desc{
+                padding-top: 19px;
+                p{
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 27px;
+                    color: #020202;
+                }
+            }
+            .info-btn{
+                margin-top: 36px;
+                position: relative;
+                z-index: 200;
+                button{
+                    width: 234px;
+                    height: 67px;
+                    background: #020202;
+                    border: 4px solid #e6d56a;
+                    transition: all 0.4s;
+                    box-shadow: inset 0px 0px 0px 0px #e6d56a;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                    font-weight: 900;
+                    color: #e6d56a;
+                    &:hover{
+                        box-shadow: inset 0px 0px 0px 6px #e6d56a;
+                    }
+                }
+            }
+        }
+    }
+}

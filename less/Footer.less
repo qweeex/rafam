@@ -1,0 +1,160 @@
+.footer{
+    margin-top: 20px;
+    &-top{
+        background: url('/img/footer-top.jpg') center center no-repeat;
+        background-size: cover;
+        padding-top: 32px;
+        padding-bottom: 22px;
+    }
+    &-phone{
+        &__tel{
+            font-weight: 900;
+            font-size: 18px;
+            color: #e6d56a;
+            text-decoration: none;
+        }
+    }
+    &-date{
+        padding-top: 6px;
+        p{
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    &-social{
+        margin-top: 16px;
+        .social-btn{
+            width: 33px;
+            display: flex;
+            justify-content: center;
+            height: 33px;
+            float: left;
+            margin-right: 12px;
+            background: #020202;
+            border: 1px solid #e6d56a;
+            transition: all 0.4s;
+            box-shadow: inset 0px 0px 0px 0px #e6d56a;
+            &:hover{
+                box-shadow: inset 0px 0px 0px 2px #e6d56a;
+            }
+        }
+    }
+    &-pay{
+        padding: 17px 23px;
+        background: #020202;
+        margin-left: 15px;
+        &__text{
+            p{
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                color: #D3D3D3;
+            }
+        }
+        &__types{
+            display: flex;
+            margin-top: 10px;
+            .type{
+                margin-right: 15px;
+            }
+        }
+    }
+    &-shop{
+        max-width: 887px;
+        &__title{
+            p{
+                font-weight: 900;
+                font-size: 18px;
+                color: #e6d56a;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+        }
+        &__list{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .footer-item{
+                width: 33%;
+                margin-top: 19px;
+                &::before{
+                    content: url('/img/footer-map.png');
+                    float: left;
+                    width: 24px;
+                    height: 60px;
+                }
+                &__title{
+                    p{
+                        font-weight: 900;
+                        font-size: 16px;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+                &__street,
+                &__level{
+                    p{
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #D3D3D3;
+                    }
+                }
+            }
+        }
+    }
+    &-bottom{
+        background: #020202;
+        padding-top: 36px;
+        &__title{
+            p{
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 27px;
+                color: #e6d56a;
+            }
+        }
+        &__nav{
+            display: flex;
+            flex-direction: column;
+            padding-top: 4px;
+            .footer-link{
+                padding-top: 5px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                text-decoration-line: underline;
+                color: #FFFFFF;
+            }
+        }
+    }
+    &-copy{
+        border-top: 1px solid #e6d56a;
+        margin-top: 39px;
+        padding-top: 22px;
+        p{
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #e6d56a;
+            text-align: center;
+        }
+    }
+    &-offert{
+        padding-top: 18px;
+        padding-bottom: 30px;
+        p{
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rafam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="img/logo-header.png" alt="" class="header-logo__img">    
+                        </a>
+                    </div>
+                    <div class="header-title">
+                        <p>
+                            Сеть
+                            <br>
+                            парфюмерных
+                            <br>
+                            магазинов
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <!-- header-city_active == класс для активного состояния -->
+                    <div class="header-city">
+                        <a href="#" class="header-city__btn">
+                            <span>Санкт-Петербург</span>
+                        </a>
+                        <div class="header-city__list">
+                            <a href="#" class="city-item">Иркутск</a>
+                            <a href="#" class="city-item">Саратов</a>
+                            <a href="#" class="city-item">Краснодар</a>
+                            <a href="#" class="city-item">Хабаровск</a>
+                            <a href="#" class="city-item city-selected">Санкт-Петербург</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="header-contact">
+                        <div class="contact__info">
+                            <a href="#" class="contact-phone">
+                                8 800 555-35-35
+                            </a>
+                            <a href="#" class="contact-email">
+                                info@rafam.biz
+                            </a>
+                        </div>
+                        <div class="contact__social">
+                            <a href="#" class="social-btn">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/whatsapp.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/viber.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navbar">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center navbar-black">
+                <div class="col-xl-auto">
+                    <div class="navbar-catalog">
+                        <a href="#" class="navbar-catalog__link">
+                            <span></span>
+                            Каталог
+                        </a>
+                        <div class="navbar-catalog__list">
+                            <a href="#" class="catalog-link">
+                                <span></span>
+                                Женские ароматы
+                            </a>
+                            <a href="#" class="catalog-link">
+                                <span></span>
+                                Мужские ароматы
+                            </a>
+                            <a href="#" class="catalog-link">
+                                <span></span>
+                                Универсальные ароматы
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-auto">
+                    <div class="navbar-menu">
+                        <nav>
+                            <a href="#" class="navbar-menu__link">Акции</a>
+                            <a href="#" class="navbar-menu__link menu-active">Подобрать аромат</a>
+                            <a href="#" class="navbar-menu__link">Дисконтная программа</a>
+                            <a href="#" class="navbar-menu__link">Подарочные сертификаты</a>
+                            <a href="#" class="navbar-menu__link">Доставка и оплата</a>
+                            <a href="#" class="navbar-menu__link">Контакты</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-2 ml-auto">
+                    <div class="navbar-links">
+                        <a href="#" class="navbar-user">
+                            <img src="img/user.png" alt="">
+                            <img src="img/right.png" alt="">
+                        </a>
+                        <a href="#" class="navbar-cart">
+                            <img src="img/cart.png" alt="">
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slider-item" style="background: url('img/bg.jpg');">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center justify-content-center">
+                        <div class="col-xl-auto">
+                            <div class="slider-content">
+                                <p>Продажа парфюмерных масел <br>и селективной парфюмерии</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="types">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-xl-auto">
+                    <a href="#" class="types-link types-women">
+                        Женские ароматы
+                        <span></span>
+                    </a>
+                </div>
+                <div class="col-xl-auto">
+                    <a href="#" class="types-link types-men">
+                        Мужские ароматы
+                        <span></span>
+                    </a>
+                </div>
+                <div class="col-xl-auto">
+                    <a href="#" class="types-link types-universal">
+                        Универсальные ароматы
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="about-bottle">
+                        <img src="img/bottle.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="about-card">
+                        <div class="about-card__title">
+                            <p>Обладает потрясающим, «чистым» ароматом</p>
+                        </div>
+                        <div class="about-card__desc">
+                            <p>А всё потому, что в парфюмерном масле отсутствует алкоголь, который в разной степени вносит в букет парфюма собственную нотку.  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="about-card">
+                        <div class="about-card__title">
+                            <p>Держится на коже дольше алкогольных парфюмов</p>
+                        </div>
+                        <div class="about-card__desc">
+                            <p>Этиловый спирт, который используют в производстве ароматических вод, быстро испаряется с волосяного и кожного покрова, одежды. Это не свойственно аромату парфюмерных масел. Он стойкий, выносливый, держится не меньше 24 часов.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="container">
+            <div class="row">
+                <div class="carousel-container">
+                    <div class="carousel-wrapper">
+                        <div class="carousel-slide">
+                            <img src="img/group.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="carousel-prev"></div>
+                    <div class="carousel-next"></div>
+                    <div class="carousel-thumb">
+                        <a href="#" class="slide-thumb slide-thumb__active"></a>
+                        <a href="#" class="slide-thumb"></a>
+                        <a href="#" class="slide-thumb"></a>
+                        <a href="#" class="slide-thumb"></a>
+                        <a href="#" class="slide-thumb"></a>
+                        <a href="#" class="slide-thumb"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="founder">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="founder-content">
+                        <div class="founder-content_text">
+                            <p class="text-subtitle">Здравствуйте, меня зовут</p>
+                            <p class="text-title">Солтан Джумагашиев</p>
+                        </div>
+                        <div class="founder-content_intro">
+                            <p>Мы хотим  быть доступными для наших покупателей и по этому мы запустили наш интернет-магазин, в котором есть доставка не только по Саратову но и по другим регионам России.</p>
+                            <p>Наша цель дать возможность людям пользоваться уникальной парфюмерией высокого качества за доступные деньги.</p>
+                        </div>
+                        <div class="founder-content_desc">
+                            <p><span>главное —</span><br>наши клиенты очень довольны продуктом и возвращаются снова и снова.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="founder-men">
+                        <img src="img/soltan.png" alt="">
+                    </div>
+                    <div class="founder-video">
+                        <a href="#">
+                            <img src="img/video.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="view">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="view-title">
+                        <p>Как выглядит парфюмерия</p>
+                    </div>
+                    <div class="view-card view-column-1">
+                        <div class="view-card__title">
+                            <p>Вот в такой  бутылочке
+                                хранится масло, которое вы можете приобрести</p>
+                        </div>
+                        <div class="view-card__desc">
+                            <p>С помощью специального шприца мы извлекаем необходимое количество масла и разливаем его по флаконам подходящего объёма.</p>
+                        </div>
+                        <div class="view-card__size">
+                            <div class="size-item">
+                                100 мл.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="view-img">
+                        <img src="img/big_bottle.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="view-card view-column-2">
+                        <div class="view-card__title">
+                            <p>Вы можете выбрать необходимый 
+                                объём и купить масло в роллере</p>
+                        </div>
+                        <div class="view-card__desc">
+                            <p>В нём хранится масло в чистом виде и наносится на одежду или кожу с помощью варащающегося шарика.</p>
+                        </div>
+                        <div class="view-card__size">
+                            <div class="size-item">
+                                2 мл.
+                            </div>
+                            <div class="size-item">
+                                4 мл.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-card view-column-3">
+                        <div class="view-card__title">
+                            <p>Или же можно размешать масло с парфюмированной водой</p>
+                        </div>
+                        <div class="view-card__desc">
+                            <p>Масло смешивется с парфюмированной водой в соотношении 1:1. Таким образом вы получите 
+                                замечательный аромат в формате духов.</p>
+                        </div>
+                        <div class="view-card__size">
+                            <div class="size-item">
+                                10 мл.
+                            </div>
+                            <div class="size-item">
+                                15 мл.
+                            </div>
+                            <div class="size-item">
+                                25 мл.
+                            </div>
+                            <div class="size-item">
+                                30 мл.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="advantages-title">
+                        <p>В чём<br>преимущества<br>масел?</p>
+                    </div>
+                    <div class="advantages-images">
+                        <div class="advantages-images_1">
+                            <img src="img/cone.png" alt="">
+                        </div>
+                        <div class="advantages-images_2">
+                            <img src="img/oil_bottle.png" alt="">
+                        </div>
+                        <div class="advantages-images_3">
+                            <img src="img/wood.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="advantages-card">
+                        <div class="advantages-card__title">
+                            <p>Масла гипоаллергенны и не сушат кожу</p>
+                        </div>
+                        <div class="advantages-card__desc">
+                            <p>Благодаря отсутствию алкогольных примесей качественные парфюмерные масла не вызывают аллергических реакций и не сушат кожу.
+                                Они подходят всем.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="advantages-card">
+                        <div class="advantages-card__title">
+                            <p>Масла экономны</p>
+                        </div>
+                        <div class="advantages-card__desc">
+                            <p>Маленького флакона хватает намного дольше, чем аналогичного объёма туалетной воды. Парфюмерные масла, как правило, продаются в таре (с роликовым аппликатором) объёмом 3–12 мл. 
+                                <br>
+                                <br>
+                                Чтобы получить ненавязчивый аромат, достаточно единожды помазать кожу средством. Таким образом, флакончика с максимальной  вместимостью 12 мл. должно хватить на 12 месяцев использования, даже если пользоваться этим средством ежедневно. При этом аромат улетучивается только по истечении суток, что также можно
+                                отнести к очевидным плюсам.  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="photos-title">
+                        <p>Подписывайтесь на наш Instagam</p>
+                    </div>
+                    <div class="photos-insta">
+                        <p class="photos-insta__text">@Rafam64</p>
+                        <button class="photos-insta__btn">
+                            Подписаться
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="photos-slider">
+                        <div class="photos-arrows">
+                            <button class="photos-arrows__top" disabled>
+                                <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 0.999999L12.5 12L0.999999 0.999999" stroke="#D7C46C" stroke-width="2"/>
+                                    <path d="M24 0.999999L12.5 12L0.999999 0.999999" stroke="url(#paint0_linear)" stroke-width="2"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear" x1="60.3721" y1="0.76029" x2="60.0627" y2="14.3439" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#E7D36F"/>
+                                    <stop offset="0.469613" stop-color="#B1973B"/>
+                                    <stop offset="1" stop-color="#E6D569"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </button>
+                            <button class="photos-arrows__bottom">
+                                <svg width="25" height="14" viewBox="0 0 25 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24 0.999999L12.5 12L0.999999 0.999999" stroke="#D7C46C" stroke-width="2"/>
+                                    <path d="M24 0.999999L12.5 12L0.999999 0.999999" stroke="url(#paint0_linear)" stroke-width="2"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear" x1="60.3721" y1="0.76029" x2="60.0627" y2="14.3439" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#E7D36F"/>
+                                    <stop offset="0.469613" stop-color="#B1973B"/>
+                                    <stop offset="1" stop-color="#E6D569"/>
+                                    </linearGradient>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="photos-wrapper">
+                            <div class="photos-item">
+                                <img src="img/ph_1.jpg" alt="">
+                                <div class="photos-item__hover">
+                                    <div class="zoom-btn">
+                                        <img src="img/zoom.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photos-item">
+                                <img src="img/ph_2.jpg" alt="">
+                                <div class="photos-item__hover">
+                                    <div class="zoom-btn">
+                                        <img src="img/zoom.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photos-item">
+                                <img src="img/post_1.png" alt="">
+                                <div class="photos-item__hover">
+                                    <div class="zoom-btn">
+                                        <img src="img/zoom.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photos-item">
+                                <img src="img/post_2.png" alt="">
+                                <div class="photos-item__hover">
+                                    <div class="zoom-btn">
+                                        <img src="img/zoom.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photos-item">
+                                <img src="img/post_3.jpg" alt="">
+                                <div class="photos-item__hover">
+                                    <div class="zoom-btn">
+                                        <img src="img/zoom.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photos-item">
+                                <img src="img/post_4.png" alt="">
+                                <div class="photos-item__hover">
+                                    <div class="zoom-btn">
+                                        <img src="img/zoom.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-auto">
+                        <div class="footer-phone">
+                            <a href="#" class="footer-phone__tel">8 800 555-35-35</a>
+                        </div>
+                        <div class="footer-date">
+                            <p>Ежедневно<br><span>10:00-22:00</span></p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" class="social-btn">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/whatsapp.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/viber.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-auto">
+                        <div class="footer-pay">
+                            <div class="footer-pay__text">
+                                <p>При поддержке Сбербанка <br>принимаем к оплате:</p>
+                            </div>
+                            <div class="footer-pay__types">
+                                <div class="type">
+                                    <img src="img/visa.png" alt="">
+                                </div>
+                                <div class="type">
+                                    <img src="img/master_card.png" alt="">
+                                </div>
+                                <div class="type">
+                                    <img src="img/mir.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-auto">
+                        <div class="footer-shop">
+                            <div class="footer-shop__title">
+                                <p>Наши магазины:</p>
+                            </div>
+                            <div class="footer-shop__list">
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТРЦ «Победа плаза»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Василия Люкшина, 5</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>2 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТРЦ «Тау Галерея»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>3-я дачная улица</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>2 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТЦ «Город»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Большая садовая, 153/163</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>1 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТРЦ «happy молл»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Вольский тракт, 2</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>1 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТЦ «форум»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Танкистов, 1</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>1 этаж</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Информация</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Контакты</a>
+                            <a href="#" class="footer-link">Доставка и оплата</a>
+                            <a href="#" class="footer-link">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Служба поддержки</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Франшиза</a>
+                            <a href="#" class="footer-link">Обратная связь</a>
+                            <a href="#" class="footer-link">Возврат товара</a>
+                            <a href="#" class="footer-link">Карта сайта</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Дополнительно</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Производители</a>
+                            <a href="#" class="footer-link">Подарочные сертификаты</a>
+                            <a href="#" class="footer-link">Дисконтная программа</a>
+                            <a href="#" class="footer-link">Акции</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Личный кабинет</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Личный кабинет</a>
+                            <a href="#" class="footer-link">История заказов</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 ml-auto mr-auto">
+                        <div class="footer-copy">
+                            <p>© 2016 — 2019, Интернет-магазин «rafam.com»  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-offert">
+                            <p> Информация, указанная на сайте, не является публичной офертой. Фирма-производитель оставляет за собой право на внесение изменений в конструкцию, дизайн и комплектацию товара. Изображения товаров на фотографиях, представленных в каталоге на сайте, могут отличаться от оригиналов. Информация о цене товара, указанная в каталоге на сайте, может отличаться от фактической к моменту оформления заказа на соответствующий товар Пожалуйста, сверяйте информацию о товаре с информацией на официальном сайте компании производителя или уточняйте спецификацию конкретной модели с менеджером нашей компании!  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

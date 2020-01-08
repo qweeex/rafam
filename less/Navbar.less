@@ -1,0 +1,161 @@
+.navbar{
+    background: #000;  
+    height: 66px;
+    position: relative;
+    z-index: 150;
+    &-black{
+        background: #000; 
+    }
+    &-catalog{
+        position: relative;
+        &:hover{
+            .navbar-catalog__list{
+                top: 66px;
+            }
+            .navbar-catalog__link{
+                height: 66px;
+                &::after{
+                    opacity: 1;
+                }
+            }
+        }
+        &__link{
+            background: linear-gradient(258.23deg, #E7D36F -9.27%, #B1973B 46.12%, #E6D569 108.67%), #D7C46C;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #020202;
+            text-decoration: none;
+            float: left;
+            display: flex;
+            align-items: center;
+            border: 1px solid #B1973B;
+            padding-right: 12px;
+            height: 32px;
+            transition: all 0.4s;
+            position: relative;
+
+            &::after{
+                background: url('/img/catalog-menu.png') center center no-repeat;
+                position: absolute;
+                height: 17px;
+                display: block;
+                content: '';
+                width: 137px;
+                bottom: -16px;
+                left: 0;
+                opacity: 0;
+                transition: all 0.4s;
+            }
+            span{
+                position: relative;
+                width: 30px;
+                height: 30px;
+                background: #000;
+                display: flex;
+                margin-right: 13px;
+                align-items: center;
+                justify-content: center;
+                &::before{
+                    content: url('/img/rafam.png');
+                }
+            }
+
+        }
+        &__list{
+            position: absolute;
+            width: 426px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            padding: 40px 54px;
+            top: -162px;
+            z-index: -10;
+            transition: all 0.4s;
+            .catalog-link{
+                font-weight: bold;
+                font-size: 20px;
+                color: #020202;
+                text-decoration: none;
+                position: relative;
+                padding-left: 42px;
+                margin-bottom: 35px;
+                display: flex;
+                align-items: center;
+                &:nth-last-child(1){
+                    margin-bottom: 0;
+                }
+                span{
+                    width: 30px;
+                    height: 30px;
+                    background: #E85252;
+                    display: block;
+                    position: absolute;
+                    left: -15px;
+                    transition: all 0.4s;
+                }
+                &:hover{
+                    span{
+                        width: 47px;
+                    }
+                }
+            }
+        }
+    }
+    &-menu{
+        float: left;
+        display: flex;
+        align-items: center;
+        &__link{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            text-decoration: underline;
+            color: #FFFFFF;
+            padding-right: 15px;
+            &:hover{
+                font-weight: bold;
+                text-decoration: none;
+            }
+        }
+        .menu-active{
+            color: #D7C46C;
+            font-weight: 900;
+            background: linear-gradient(259.11deg, #E7D36F -9.27%, #B1973B 46.12%, #E6D569 108.67%), #D7C46C;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    &-links{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &-cart{
+        text-decoration: none;
+        position: relative;
+        span{
+            position: absolute;
+            right: -15px;
+            top: -5px;
+            text-decoration: none;
+            color: #020202;
+            background: #FFFFFF;
+            font-weight: 900;
+            font-size: 14px;
+            border-radius: 30px;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+    }
+    &-user{
+        text-align: right;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+}
