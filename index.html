@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-12">
                     <div class="header-logo">
                         <a href="#">
                             <img src="img/logo-header.png" alt="" class="header-logo__img">    
@@ -29,7 +31,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-12 order-top">
                     <!-- header-city_active == класс для активного состояния -->
                     <div class="header-city">
                         <a href="#" class="header-city__btn">
@@ -44,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 d-none d-lg-block">
                     <div class="header-contact">
                         <div class="contact__info">
                             <a href="#" class="contact-phone">
@@ -73,7 +75,14 @@
     <div class="navbar">
         <div class="container h-100">
             <div class="row h-100 align-items-center navbar-black">
-                <div class="col-xl-auto">
+                <div class="col-xl-auto col-7">
+                    <div class="navbar-mobile">
+                        <a href="#" class="navbar-mobile__btn">
+                            <span class="line1"></span>
+                            <span class="line2"></span>
+                            <span class="line3"></span>
+                        </a>
+                    </div>
                     <div class="navbar-catalog">
                         <a href="#" class="navbar-catalog__link">
                             <span></span>
@@ -95,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-auto">
+                <div class="col-xl-auto desktop-menu">
                     <div class="navbar-menu">
                         <nav>
                             <a href="#" class="navbar-menu__link">Акции</a>
@@ -107,7 +116,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="col-xl-2 ml-auto">
+                <div class="col-xl-2 col-auto ml-auto">
                     <div class="navbar-links">
                         <a href="#" class="navbar-user">
                             <img src="img/user.png" alt="">
@@ -120,13 +129,50 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="d-flex d-lg-none">
+                    <div class="navbar-mob">
+                        <div class="navbar-menu">
+                            <nav>
+                                <a href="#" class="navbar-menu__link">Акции</a>
+                                <a href="#" class="navbar-menu__link menu-active">Подобрать аромат</a>
+                                <a href="#" class="navbar-menu__link">Дисконтная программа</a>
+                                <a href="#" class="navbar-menu__link">Подарочные сертификаты</a>
+                                <a href="#" class="navbar-menu__link">Доставка и оплата</a>
+                                <a href="#" class="navbar-menu__link">Контакты</a>
+                            </nav>
+                        </div>
+                        <div class="navbar-contact d-flex d-lg-none">
+                            <div class="contact__info">
+                                <a href="#" class="contact-phone">
+                                    8 800 555-35-35
+                                </a>
+                                <a href="#" class="contact-email">
+                                    info@rafam.biz
+                                </a>
+                            </div>
+                            <div class="contact__social">
+                                <a href="#" class="social-btn">
+                                    <img src="img/telegram.svg" alt="">
+                                </a>
+                                <a href="#" class="social-btn">
+                                    <img src="img/whatsapp.svg" alt="">
+                                </a>
+                                <a href="#" class="social-btn">
+                                    <img src="img/viber.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="slider">
         <div class="slider-wrapper">
             <div class="slider-item" style="background: url('img/bg.jpg');">
                 <div class="container h-100">
-                    <div class="row h-100 align-items-center justify-content-center">
+                    <div class="row h-100 align-items-md-center align-items-end justify-content-center">
                         <div class="col-xl-auto">
                             <div class="slider-content">
                                 <p>Продажа парфюмерных масел <br>и селективной парфюмерии</p>
@@ -139,7 +185,7 @@
     </div>
     <div class="types">
         <div class="container">
-            <div class="row justify-content-around">
+            <div class="row justify-content-md-around">
                 <div class="col-xl-auto">
                     <a href="#" class="types-link types-women">
                         Женские ароматы

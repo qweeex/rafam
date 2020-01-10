@@ -1,0 +1,52 @@
+.types {
+  padding-top: 29px;
+  padding-bottom: 32px;
+}
+.types-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #020202;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.types-link span {
+  width: 262px;
+  height: 8px;
+  background: #7FE189;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+.types-women span {
+  background: #E85252;
+}
+.types-universal span {
+  background: #EAD772;
+}
+@media (max-width: 600px) {
+  .types {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  .types .row {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: max-content;
+  }
+  .types-link {
+    font-size: 16px;
+    line-height: 27px;
+    color: #020202;
+  }
+  .types-link span {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .types .col-xl-auto {
+    width: auto !important;
+  }
+}

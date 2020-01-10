@@ -31,3 +31,27 @@
         }
     }
 }
+@media (max-width: 600px){
+    .types{
+        width: 100%;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        .row{
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: max-content;
+        }
+        &-link{
+            font-size: 16px;
+            line-height: 27px;
+            color: #020202;
+            span{
+                width: 100%;
+                margin-top: 5px;            
+            }
+        }
+        .col-xl-auto{
+            width: auto !important;
+        }
+    }
+}

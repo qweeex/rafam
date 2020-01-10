@@ -1,0 +1,54 @@
+.about {
+  background: url('/img/rectangle.jpg') center center no-repeat;
+  background-size: cover;
+  padding-top: 36px;
+  padding-bottom: 60px;
+}
+.about-card {
+  background: #fff;
+  border: 5px solid transparent;
+  border-image: linear-gradient(#e7d36f, #b1973b, #e6d569);
+  border-image-slice: 1;
+  padding: 43px;
+  min-height: 500px;
+}
+.about-card__title p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 34px;
+  color: #020202;
+}
+.about-card__desc {
+  padding-top: 17px;
+}
+.about-card__desc p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  color: #020202;
+}
+@media (max-width: 600px) {
+  .about-bottle {
+    display: flex;
+    justify-content: center;
+  }
+  .about-bottle img {
+    height: 233px;
+  }
+  .about-card {
+    min-height: auto;
+    padding: 28px 18px;
+    margin-bottom: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .about-card__title p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .about-card__desc p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

@@ -69,3 +69,42 @@
         }
     }
 }
+@media (max-width: 600px){
+    .carousel{
+        height: 151px;
+        &-slide{
+            img{
+                width: 100%;
+            }
+        }
+        &-prev,
+        &-next{
+            width: 31px;
+            height: 151px;
+            &::before{
+                width: 8px;
+                height: 16px;
+                display: block;
+                content: '';
+            }
+        }
+        &-prev{
+            &::before {
+                background: url(/img/arrow-left.png);
+                background-size: cover;
+            }
+        }
+        &-next{
+            &::before {
+                background: url(/img/arrow-right.png);
+                background-size: cover;
+            }
+        }
+        &-thumb{
+            width: 81%;
+            justify-content: space-around;
+            background: #000;
+            bottom: -49px;
+        }
+    }
+}
