@@ -1,0 +1,81 @@
+.contact{
+    margin-top: 35px;
+    &-title{
+        padding-bottom: 26px;
+        p{
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 49px;
+            .gold-color;
+        }
+    }
+    &-info{
+        &_city{
+            .city-title{
+                font-weight: 900;
+                font-size: 25px;
+                line-height: 30px;
+                color: #020202;
+                padding-bottom: 13px;
+            }
+            .city-phone{
+                font-weight: 300;
+                font-size: 19px;
+                color: #020202;
+                display: flex;
+                align-items: center;
+                padding-bottom: 15px;
+                &::before{
+                    content: url('/img/phone-grey.png');
+                    margin-right: 12px;
+                }
+            }
+            .city-insta{
+                font-weight: 300;
+                font-size: 19px;
+                color: #020202;
+                display: flex;
+                align-items: center;
+                padding-bottom: 32px;
+                &::before{
+                    content: url('/img/insta-grey.png');
+                    margin-right: 12px;
+                }
+            }
+        }
+        &__list{
+            .info-item{
+                background: #F1F1F1;
+                padding: 25px 22px;
+                width: 100%;
+                margin-bottom: 10px;
+                &__name{
+                    p{
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        text-transform: uppercase;
+                        color: #020202;
+                    }
+                }
+                &__street{
+                    p{
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #020202;
+                    }
+                }
+                &__level{
+                    p{
+                        font-weight: bold;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #020202;
+                    }
+                }
+            }
+        }
+    }
+}

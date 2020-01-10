@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rafam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-grid.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Plugin CSS file with desired skin-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Plugin JavaScript file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="img/logo-header.png" alt="" class="header-logo__img">    
+                        </a>
+                    </div>
+                    <div class="header-title">
+                        <p>
+                            Сеть
+                            <br>
+                            парфюмерных
+                            <br>
+                            магазинов
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <!-- header-city_active == класс для активного состояния -->
+                    <div class="header-city">
+                        <a href="#" class="header-city__btn">
+                            <span>Санкт-Петербург</span>
+                        </a>
+                        <div class="header-city__list">
+                            <a href="#" class="city-item">Иркутск</a>
+                            <a href="#" class="city-item">Саратов</a>
+                            <a href="#" class="city-item">Краснодар</a>
+                            <a href="#" class="city-item">Хабаровск</a>
+                            <a href="#" class="city-item city-selected">Санкт-Петербург</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="header-contact">
+                        <div class="contact__info">
+                            <a href="#" class="contact-phone">
+                                8 800 555-35-35
+                            </a>
+                            <a href="#" class="contact-email">
+                                info@rafam.biz
+                            </a>
+                        </div>
+                        <div class="contact__social">
+                            <a href="#" class="social-btn">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/whatsapp.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/viber.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navbar">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center navbar-black">
+                <div class="col-xl-auto">
+                    <div class="navbar-catalog">
+                        <a href="#" class="navbar-catalog__link">
+                            <span></span>
+                            Каталог
+                        </a>
+                        <div class="navbar-catalog__list">
+                            <a href="#" class="catalog-link">
+                                <span></span>
+                                Женские ароматы
+                            </a>
+                            <a href="#" class="catalog-link">
+                                <span></span>
+                                Мужские ароматы
+                            </a>
+                            <a href="#" class="catalog-link">
+                                <span></span>
+                                Универсальные ароматы
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-auto">
+                    <div class="navbar-menu">
+                        <nav>
+                            <a href="#" class="navbar-menu__link">Акции</a>
+                            <a href="#" class="navbar-menu__link menu-active">Подобрать аромат</a>
+                            <a href="#" class="navbar-menu__link">Дисконтная программа</a>
+                            <a href="#" class="navbar-menu__link">Подарочные сертификаты</a>
+                            <a href="#" class="navbar-menu__link">Доставка и оплата</a>
+                            <a href="#" class="navbar-menu__link">Контакты</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-2 ml-auto">
+                    <div class="navbar-links">
+                        <a href="#" class="navbar-user">
+                            <img src="img/user.png" alt="">
+                            <img src="img/right.png" alt="">
+                        </a>
+                        <a href="#" class="navbar-cart">
+                            <img src="img/cart.png" alt="">
+                            <span>0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="contact-title">
+                        <p>Контактная информация</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="contact-info">
+                        <div class="contact-info_city">
+                            <p class="city-title">Саратов</p>
+                            <a href="#" class="city-phone">8 800 555-35-35</a>
+                            <a href="#" class="city-insta">@Rafam64</a>
+                        </div>
+                        <div class="contact-info__list">
+                            <div class="info-item">
+                                <div class="info-item__name">
+                                    <p>трц «победа плаза»</p>
+                                </div>
+                                <div class="info-item__street">
+                                    <p>Василия Люкшина, 5</p>
+                                </div>
+                                <div class="info-item__level">
+                                    <p>2 этаж</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-item__name">
+                                    <p>трц «ТАУ галерея»</p>
+                                </div>
+                                <div class="info-item__street">
+                                    <p>3-я Дачначя улица</p>
+                                </div>
+                                <div class="info-item__level">
+                                    <p>2 этаж</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-item__name">
+                                    <p>тц «город»</p>
+                                </div>
+                                <div class="info-item__street">
+                                    <p>Большая Садовая, 153/163</p>
+                                </div>
+                                <div class="info-item__level">
+                                    <p>1 этаж</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-item__name">
+                                    <p>трц «hapy молл»</p>
+                                </div>
+                                <div class="info-item__street">
+                                    <p>Вольский тракт, 2</p>
+                                </div>
+                                <div class="info-item__level">
+                                    <p>1 этаж</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-item__name">
+                                    <p>тц «форум»</p>
+                                </div>
+                                <div class="info-item__street">
+                                    <p>Танкистов, 1</p>
+                                </div>
+                                <div class="info-item__level">
+                                    <p>1 этаж</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-auto">
+                        <div class="footer-phone">
+                            <a href="#" class="footer-phone__tel">8 800 555-35-35</a>
+                        </div>
+                        <div class="footer-date">
+                            <p>Ежедневно<br><span>10:00-22:00</span></p>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" class="social-btn">
+                                <img src="img/telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/whatsapp.svg" alt="">
+                            </a>
+                            <a href="#" class="social-btn">
+                                <img src="img/viber.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-auto">
+                        <div class="footer-pay">
+                            <div class="footer-pay__text">
+                                <p>При поддержке Сбербанка <br>принимаем к оплате:</p>
+                            </div>
+                            <div class="footer-pay__types">
+                                <div class="type">
+                                    <img src="img/visa.png" alt="">
+                                </div>
+                                <div class="type">
+                                    <img src="img/master_card.png" alt="">
+                                </div>
+                                <div class="type">
+                                    <img src="img/mir.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-auto">
+                        <div class="footer-shop">
+                            <div class="footer-shop__title">
+                                <p>Наши магазины:</p>
+                            </div>
+                            <div class="footer-shop__list">
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТРЦ «Победа плаза»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Василия Люкшина, 5</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>2 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТРЦ «Тау Галерея»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>3-я дачная улица</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>2 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТЦ «Город»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Большая садовая, 153/163</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>1 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТРЦ «happy молл»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Вольский тракт, 2</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>1 этаж</p>
+                                    </div>
+                                </div>
+                                <div class="footer-item">
+                                    <div class="footer-item__title">
+                                        <p>ТЦ «форум»</p>
+                                    </div>
+                                    <div class="footer-item__street">
+                                        <p>Танкистов, 1</p>
+                                    </div>
+                                    <div class="footer-item__level">
+                                        <p>1 этаж</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Информация</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Контакты</a>
+                            <a href="#" class="footer-link">Доставка и оплата</a>
+                            <a href="#" class="footer-link">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Служба поддержки</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Франшиза</a>
+                            <a href="#" class="footer-link">Обратная связь</a>
+                            <a href="#" class="footer-link">Возврат товара</a>
+                            <a href="#" class="footer-link">Карта сайта</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Дополнительно</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Производители</a>
+                            <a href="#" class="footer-link">Подарочные сертификаты</a>
+                            <a href="#" class="footer-link">Дисконтная программа</a>
+                            <a href="#" class="footer-link">Акции</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="footer-bottom__title">
+                            <p>Личный кабинет</p>
+                        </div>
+                        <div class="footer-bottom__nav">
+                            <a href="#" class="footer-link">Личный кабинет</a>
+                            <a href="#" class="footer-link">История заказов</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 ml-auto mr-auto">
+                        <div class="footer-copy">
+                            <p>© 2016 — 2019, Интернет-магазин «rafam.com»  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-offert">
+                            <p> Информация, указанная на сайте, не является публичной офертой. Фирма-производитель оставляет за собой право на внесение изменений в конструкцию, дизайн и комплектацию товара. Изображения товаров на фотографиях, представленных в каталоге на сайте, могут отличаться от оригиналов. Информация о цене товара, указанная в каталоге на сайте, может отличаться от фактической к моменту оформления заказа на соответствующий товар Пожалуйста, сверяйте информацию о товаре с информацией на официальном сайте компании производителя или уточняйте спецификацию конкретной модели с менеджером нашей компании!  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
