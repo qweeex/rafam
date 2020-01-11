@@ -357,7 +357,7 @@
 .detail-buy .detail-sumbit .text-danger span {
   font-weight: 700;
 }
-@media (max-width: 600px) {
+@media (max-width: 1050px) {
   .detail-buy .order-card {
     order: 1;
   }

@@ -138,7 +138,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 1050px) {
   .question-img {
     display: none;
   }

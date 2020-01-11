@@ -129,6 +129,34 @@
   line-height: 37px;
   color: #020202;
 }
+@media (max-width: 1050px) {
+  .test-result {
+    margin-top: 0;
+  }
+  .test-result__top .top-title {
+    margin-top: 20px;
+  }
+  .test-result__top .top-title p {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .test-result__top .top-desc p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .test-result__top .top-sale img {
+    max-width: 100%;
+  }
+  .test-result__top .filter-list {
+    flex-wrap: wrap;
+  }
+  .test-result__top .filter-list .filter-btn {
+    margin-bottom: 10px;
+  }
+  .test-result__bottom .product-item {
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 600px) {
   .test-result {
     margin-top: 0;
