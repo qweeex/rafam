@@ -1,0 +1,195 @@
+.photos {
+  margin-top: 90px;
+}
+.photos-title p {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.photos-insta__text {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  color: #020202;
+}
+.photos-insta__btn {
+  width: 234px;
+  height: 67px;
+  background: #020202;
+  border: 4px solid #e6d56a;
+  transition: all 0.4s;
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e6d56a;
+  margin-top: 60px;
+}
+.photos-insta__btn:hover {
+  box-shadow: inset 0px 0px 0px 6px #e6d56a;
+}
+.photos-slider {
+  display: flex;
+  height: 430px;
+}
+.photos-slider .photos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -90px;
+  overflow: hidden;
+  position: relative;
+}
+.photos-slider .photos-wrapper:after {
+  height: 114px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: '';
+  background: linear-gradient(0deg, #ffffff 18.42%, rgba(255, 255, 255, 0) 100%);
+}
+.photos-slider .photos-wrapper .photos-item {
+  position: relative;
+  overflow: hidden;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.photos-slider .photos-wrapper .photos-item__hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.photos-slider .photos-wrapper .photos-item__hover .zoom-btn {
+  width: 73px;
+  height: 73px;
+  background: #020202;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.8s;
+  transform: translateY(500px);
+}
+.photos-slider .photos-wrapper .photos-item__hover:hover .zoom-btn {
+  transform: translateY(0);
+}
+.photos-arrows {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  right: 17px;
+  bottom: 20px;
+}
+.photos-arrows button[disabled] {
+  background: lightgray;
+  box-shadow: none !important;
+  cursor: not-allowed;
+}
+.photos-arrows button[disabled] svg path {
+  stroke: gray;
+}
+.photos-arrows button {
+  width: 48px;
+  height: 48px;
+  background: #020202;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.4s;
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photos-arrows button:hover {
+  box-shadow: inset 0px 0px 0px 3px #e6d56a;
+}
+.photos-arrows__top {
+  margin-bottom: 20px;
+}
+.photos-arrows__top svg {
+  transform: rotate(180deg);
+}
+@media (max-width: 1380px) {
+  .photos-item {
+    margin: 0 !important;
+    width: 33%;
+  }
+  .photos-item img {
+    padding: 10px;
+  }
+  .photos-wrapper {
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 1050px) {
+  .photos {
+    margin-top: 140px;
+  }
+  .photos-title p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .photos-insta {
+    padding-top: 15px;
+    padding-bottom: 24px;
+  }
+  .photos-insta__text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .photos-insta__btn {
+    margin-top: 15px;
+  }
+  .photos-slider {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: auto;
+  }
+  .photos-arrows {
+    flex-direction: row;
+    bottom: 0;
+  }
+  .photos-arrows__top {
+    transform: rotate(-90deg);
+  }
+  .photos-arrows__bottom {
+    transform: rotate(-90deg);
+    margin-left: 16px;
+  }
+  .photos-wrapper {
+    margin-right: 0 !important;
+  }
+  .photos-wrapper::after {
+    background: linear-gradient(-90deg, #ffffff 18.42%, rgba(255, 255, 255, 0) 100%) !important;
+    height: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    width: 50%;
+  }
+  .photos-wrapper .photos-item {
+    width: 30%;
+    margin-right: 9px !important;
+    margin-bottom: 9px !important;
+  }
+  .photos-wrapper .photos-item img {
+    height: 90px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

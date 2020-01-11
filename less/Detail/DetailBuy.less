@@ -228,7 +228,7 @@
                 font-size: 14px;
                 line-height: 17px;
                 color: #DF503C;
-                padding-left: 15px;  
+                padding-left: 15px;
                 visibility: hidden;
             }
         }
@@ -250,7 +250,7 @@
         }
     }
     .aroma-bottle__active{
-        background: #EAD772 !important; 
+        background: #EAD772 !important;
     }
     .aroma-bottle{
         display: flex;
@@ -367,6 +367,50 @@
             visibility: hidden;
             span{
                 font-weight: 700;
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .detail-buy{
+        .order-card{
+            order: 1;
+        }
+        &__aroma{
+            .aroma-size{
+                display: flex;
+                flex-wrap: wrap;
+                .text-danger{
+                    padding-left: 0;
+                    padding-top: 10px;
+                }
+            }
+            .aroma-btn__content{
+                .content-quest__info{
+                    right: -13px;
+                    top: 38px;
+                    &:before{
+                        left: auto;
+                        top: -11px;
+                        right: 28px;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+        }
+        .detail-sumbit{
+            display: none;
+        }
+        &__card{
+            margin-top: 30px;
+        }
+        .detail-sumbit__mob{
+            display: flex !important;
+            flex-direction: column;
+            align-items: flex-start;
+            .text-danger{
+                padding-left: 0;
+                padding-top: 10px;
             }
         }
     }

@@ -27,7 +27,7 @@
   line-height: 27px;
   color: #020202;
 }
-@media (max-width: 600px) {
+@media (max-width: 1050px) {
   .about-bottle {
     display: flex;
     justify-content: center;

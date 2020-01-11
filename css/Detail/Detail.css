@@ -1,0 +1,154 @@
+.detail {
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+.detail-info__num {
+  width: 275px;
+  background: #020202;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+}
+.detail-info__num .color {
+  background: #EAD772;
+  width: 100%;
+  display: block;
+  content: '';
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #020202;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.detail-info__num .num-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 21px 30px;
+}
+.detail-info__num .num-wrapper .num {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid #e6d569;
+  width: 100%;
+  background: url('/img/pattern.jpg') center center no-repeat;
+  background-size: cover;
+}
+.detail-info__num .num-wrapper .num span {
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.detail-info__name {
+  text-align: center;
+}
+.detail-info__name .reminder {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #909090;
+}
+.detail-info__name .prod {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #020202;
+}
+.detail-info__name .name {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.detail-subtitle p {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #020202;
+}
+.detail-card {
+  padding: 20px;
+  border: 1px solid #C4C4C4;
+  position: relative;
+  margin-top: 30px;
+  min-height: 82px;
+}
+.detail-card__title {
+  position: absolute;
+  top: -11px;
+  left: 15px;
+}
+.detail-card__title p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #909090;
+  background: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.detail-card__info p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #909090;
+}
+.detail-buy {
+  margin-top: 34px;
+}
+.detail-buy__line {
+  width: 100%;
+  background: #D3D3D3;
+  display: block;
+  height: 1px;
+}
+.detail-buy__price {
+  margin-top: 19px;
+}
+.detail-buy__price p {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #020202;
+}
+.detail-buy__btn {
+  margin-top: 29px;
+}
+.detail-buy__btn button {
+  width: 234px;
+  height: 67px;
+  background: #020202;
+  border: 4px solid #e6d56a;
+  transition: all 0.4s;
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e6d56a;
+}
+.detail-buy__btn button:hover {
+  box-shadow: inset 0px 0px 0px 6px #e6d56a;
+}
+@media (max-width: 600px) {
+  .detail-buy__btn {
+    position: fixed;
+    bottom: 0;
+    z-index: 15;
+    left: 0;
+    width: 100%;
+  }
+  .detail-buy__btn button {
+    width: 100%;
+  }
+}

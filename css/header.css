@@ -142,7 +142,7 @@
 .header-contact .contact__social .social-btn:hover {
   box-shadow: inset 0px 0px 0px 2px #e6d56a;
 }
-@media (max-width: 600px) {
+@media (max-width: 1050px) {
   .order-top {
     order: -1;
   }

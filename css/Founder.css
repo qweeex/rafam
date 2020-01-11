@@ -1,0 +1,150 @@
+.founder {
+  background: url('/img/founder.png') center center no-repeat;
+  background-size: cover;
+  height: 567px;
+  position: relative;
+}
+.founder-content_text {
+  padding-top: 35px;
+  padding-right: 70px;
+}
+.founder-content_text .text-subtitle {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.founder-content_text .text-title {
+  font-weight: 900;
+  padding-top: 8px;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: right;
+  background: linear-gradient(238.41deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.founder-content_intro {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #D3D3D3;
+  margin-top: 35px;
+  padding: 49px 62px;
+  background: #000;
+}
+.founder-content_intro p:nth-child(2) {
+  padding-top: 22px;
+}
+.founder-content_desc {
+  padding-top: 14px;
+  padding-left: 60px;
+}
+.founder-content_desc p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.founder-content_desc p span {
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 51px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.founder-men {
+  position: absolute;
+  bottom: -44px;
+  right: 282px;
+}
+.founder-video {
+  bottom: -45px;
+  right: 105px;
+  position: absolute;
+}
+@media (max-width: 1050px) {
+  .founder {
+    height: auto;
+    background-position: left;
+  }
+  .founder-order {
+    order: -1;
+  }
+  .founder-image {
+    margin-left: -15px;
+    margin-right: 15px;
+    width: 110%;
+  }
+  .founder-image img {
+    width: 100%;
+    height: 200px;
+  }
+  .founder-men {
+    bottom: 0;
+    left: 50px;
+  }
+  .founder-men img {
+    width: 89px;
+    height: 188px;
+  }
+  .founder-video {
+    bottom: auto;
+    right: 30px;
+    top: 30px;
+  }
+  .founder-video img {
+    width: 116px;
+    height: 116px;
+  }
+  .founder-content {
+    text-align: left;
+  }
+  .founder-content_text {
+    padding-right: 0;
+  }
+  .founder-content_text .text-subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.2em;
+    text-align: left;
+  }
+  .founder-content_text .text-title {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+  }
+  .founder-content_intro {
+    background: transparent;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .founder-content_desc {
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .founder-content_desc p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+  }
+  .founder-content_desc p span {
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: 0.2em;
+  }
+}

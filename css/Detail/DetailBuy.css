@@ -1,0 +1,397 @@
+.detail-buy__card {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.detail-buy__card .card-info__num {
+  width: 215px;
+  background: #020202;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+}
+.detail-buy__card .card-info__num .color {
+  background: #EAD772;
+  width: 100%;
+  display: block;
+  content: '';
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #020202;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.detail-buy__card .card-info__num .num-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.detail-buy__card .card-info__num .num-wrapper .num {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid #e6d569;
+  width: 100%;
+  background: url('/img/pattern.jpg') center center no-repeat;
+  background-size: cover;
+}
+.detail-buy__card .card-info__num .num-wrapper .num span {
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.detail-buy__card .card-info__name {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.detail-buy__card .card-info__name .reminder {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #909090;
+}
+.detail-buy__card .card-info__name .prod {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #020202;
+}
+.detail-buy__card .card-info__name .name {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.detail-buy__card .card-info__structure {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 11px;
+  color: #909090;
+}
+.detail-buy__card .card-info__structure p {
+  padding-bottom: 15px;
+  display: flex;
+}
+.detail-buy__card .card-info__structure p span {
+  border-bottom: 1px solid #D3D3D3;
+  width: 100%;
+  display: block;
+  float: left;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.detail-buy__card .card-info__total {
+  border-top: 1px solid #D3D3D3;
+  padding: 12px 21px;
+  margin-top: 11px;
+}
+.detail-buy__card .card-info__total .desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #020202;
+}
+.detail-buy__card .card-info__total .price {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #020202;
+}
+.detail-buy__aroma .aroma-title p {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #020202;
+}
+.detail-buy__aroma .aroma-btn {
+  margin-top: 20px;
+}
+.detail-buy__aroma .aroma-btn input[type="radio"],
+.detail-buy__aroma .aroma-btn input[type="checkbox"] {
+  display: none;
+}
+.detail-buy__aroma .aroma-btn input[type="radio"]:checked + .aroma-btn__content,
+.detail-buy__aroma .aroma-btn input[type="checkbox"]:checked + .aroma-btn__content {
+  background: #EAD772;
+}
+.detail-buy__aroma .aroma-btn input[type="radio"]:checked + .aroma-btn__content .content-check,
+.detail-buy__aroma .aroma-btn input[type="checkbox"]:checked + .aroma-btn__content .content-check {
+  opacity: 1;
+}
+.detail-buy__aroma .aroma-btn__content {
+  background: #F1F1F1;
+  padding: 9px 12px;
+  position: relative;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.detail-buy__aroma .aroma-btn__content:hover {
+  background-color: #D3D3D3;
+}
+.detail-buy__aroma .aroma-btn__content .content-check {
+  content: url('/img/checked.png');
+  position: absolute;
+  left: 13px;
+  top: 19px;
+  opacity: 0;
+}
+.detail-buy__aroma .aroma-btn__content .content-text p {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #020202;
+}
+.detail-buy__aroma .aroma-btn__content .content-quest {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+.detail-buy__aroma .aroma-btn__content .content-quest button {
+  width: 33px;
+  height: 33px;
+  background: #020202;
+  opacity: 0.2;
+  border: 0;
+}
+.detail-buy__aroma .aroma-btn__content .content-quest:hover .content-quest__info {
+  visibility: visible;
+  opacity: 1;
+}
+.detail-buy__aroma .aroma-btn__content .content-quest__info {
+  position: absolute;
+  width: 280px;
+  background: #EAD772;
+  padding: 13px 12px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #020202;
+  top: -13px;
+  z-index: 10;
+  right: -275px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+}
+.detail-buy__aroma .aroma-btn__content .content-quest__info::before {
+  content: url('/img/gold-arrow.png');
+  position: absolute;
+  left: -7px;
+  top: 37%;
+}
+.detail-buy__aroma .aroma-size {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.detail-buy__aroma .aroma-size p {
+  font-weight: 800;
+  font-size: 20px;
+  color: #020202;
+}
+.detail-buy__aroma .aroma-size input {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #CCB758;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  width: 109px;
+  height: 43px;
+  margin-left: 10px;
+}
+.detail-buy__aroma .aroma-size .text-danger {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #DF503C;
+  padding-left: 15px;
+  visibility: hidden;
+}
+.detail-buy__aroma .aroma-size__danger .text-danger {
+  visibility: visible;
+}
+.detail-buy__aroma .aroma-size__danger input {
+  color: #DF503C;
+  border: 1px solid #DF503C;
+}
+.detail-buy__aroma .aroma-bottle__title p {
+  font-weight: 800;
+  font-size: 20px;
+  color: #020202;
+}
+.detail-buy .aroma-bottle__active {
+  background: #EAD772 !important;
+}
+.detail-buy .aroma-bottle {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background: #FFFFFF;
+  margin-top: 27px;
+  border: 1px solid #D3D3D3;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.detail-buy .aroma-bottle:hover {
+  background: #F1F1F1;
+}
+.detail-buy .aroma-bottle__desc {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.detail-buy .aroma-bottle__desc .desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #020202;
+}
+.detail-buy .aroma-bottle__desc .desc span {
+  font-weight: 700;
+}
+.detail-buy .aroma-bottle__desc .price {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #020202;
+}
+.detail-buy .detail-buy__aroma .irs--big .irs-bar--single {
+  border-radius: 0 ;
+}
+.detail-buy .detail-buy__aroma .irs--big .irs-line {
+  border-radius: 0;
+}
+.detail-buy .detail-buy__aroma .irs--big .irs-bar {
+  background: linear-gradient(220.16deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  border: 0;
+}
+.detail-buy .detail-buy__aroma .irs-line {
+  background: #E8E8E8;
+  border: 0;
+}
+.detail-buy .detail-buy__aroma .irs--big .irs-handle {
+  content: url('/img/start-ar.png');
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  top: 20px;
+}
+.detail-buy .detail-line_1 {
+  margin-top: 40px;
+  border: 0;
+  border-top: 1px solid lightgray;
+}
+.detail-buy .detail-line_2 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border: 0;
+  border-top: 1px solid lightgray;
+}
+.detail-buy .detail-line_3 {
+  margin-top: 40px;
+  border: 0;
+  border-top: 1px solid lightgray;
+}
+.detail-buy .detail-sumbit {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.detail-buy .detail-sumbit button[disabled] {
+  background: #D3D3D3;
+  border: 4px solid #909090;
+  color: #909090;
+}
+.detail-buy .detail-sumbit button[disabled]:hover {
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+}
+.detail-buy .detail-sumbit button[disabled] + .text-danger {
+  visibility: visible;
+}
+.detail-buy .detail-sumbit button {
+  width: 234px;
+  height: 67px;
+  background: #020202;
+  border: 4px solid #e6d56a;
+  transition: all 0.4s;
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e6d56a;
+}
+.detail-buy .detail-sumbit button:hover {
+  box-shadow: inset 0px 0px 0px 6px #e6d56a;
+}
+.detail-buy .detail-sumbit .text-danger {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #DF503C;
+  padding-left: 21px;
+  visibility: hidden;
+}
+.detail-buy .detail-sumbit .text-danger span {
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .detail-buy .order-card {
+    order: 1;
+  }
+  .detail-buy__aroma .aroma-size {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .detail-buy__aroma .aroma-size .text-danger {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .detail-buy__aroma .aroma-btn__content .content-quest__info {
+    right: -13px;
+    top: 38px;
+  }
+  .detail-buy__aroma .aroma-btn__content .content-quest__info:before {
+    left: auto;
+    top: -11px;
+    right: 28px;
+    transform: rotate(90deg);
+  }
+  .detail-buy .detail-sumbit {
+    display: none;
+  }
+  .detail-buy__card {
+    margin-top: 30px;
+  }
+  .detail-buy .detail-sumbit__mob {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .detail-buy .detail-sumbit__mob .text-danger {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}

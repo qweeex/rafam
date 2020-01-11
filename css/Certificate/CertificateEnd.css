@@ -1,0 +1,76 @@
+.certificate-end {
+  margin-top: 35px;
+}
+.certificate-end__title p {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.certificate-end__title p::before {
+  content: url('/img/certificate-end.png');
+  width: 60px;
+  display: block;
+  float: left;
+  height: 100px;
+}
+.certificate-end__btn {
+  margin-top: 101px;
+}
+.certificate-end__btn .btn__contined {
+  width: 275px;
+  height: 67px;
+  background: #e6d56a;
+  border: 4px solid #e6d56a;
+  transition: all 0.4s;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #020202;
+  margin-right: 30px;
+}
+.certificate-end__btn .btn__contined:hover {
+  background: #020202;
+  color: #e6d569;
+}
+.certificate-end__btn .btn__cart {
+  width: 234px;
+  height: 67px;
+  background: #020202;
+  border: 4px solid #e6d56a;
+  transition: all 0.4s;
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e6d56a;
+}
+.certificate-end__btn .btn__cart:hover {
+  box-shadow: inset 0px 0px 0px 6px #e6d56a;
+}
+@media (max-width: 600px) {
+  .certificate-end__title p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .certificate-end__btn {
+    margin-top: 21px;
+  }
+  .certificate-end__btn .btn__contined {
+    margin-bottom: 15px;
+  }
+  .certificate-end__img {
+    margin-top: 20px;
+  }
+  .certificate-end__img img {
+    max-width: 100%;
+  }
+}

@@ -7,11 +7,25 @@ $(document).ready(() => {
         $('.header-city').toggleClass('header-city_active');
     });
 
-    // Меню 
+    // Меню
     $('.navbar-mobile__btn').on('click', (e) => {
         e.preventDefault();
         $('.navbar-mobile__btn').toggleClass('navbar-mobile__btn-active');
         $('.navbar-mob').toggleClass('navbar-mob_active');
+    });
+
+    // Выбор опций
+    $('.mob-filter').on('click', (e) => {
+       e.preventDefault();
+       $('.mob-filter').toggleClass('btn-sort_active');
+       $('.catalog-option').toggleClass('sort-show');
+    });
+
+    // Сортировка
+    $('.mob-sort').on('click', (e) => {
+        e.preventDefault();
+        $('.mob-sort').toggleClass('btn-sort_active');
+        $('.catalog-filter__sort').toggleClass('sort-show');
     });
 
     // Слайдер
@@ -31,6 +45,6 @@ $(document).ready(() => {
         }
     });
 
-    
+
 
 });

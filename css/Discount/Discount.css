@@ -1,0 +1,109 @@
+.discount-title {
+  padding-top: 31px;
+  padding-bottom: 21px;
+}
+.discount-title p {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.discount-content {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.discount-content__img {
+  position: relative;
+  z-index: 120;
+}
+.discount-content .info-show {
+  margin-top: 0 !important;
+}
+.discount-content__info {
+  padding-left: 140px;
+  padding-right: 170px;
+  margin-top: -250px;
+  transition: all 0.4s;
+}
+.discount-content__info .info-title {
+  padding-top: 49px;
+}
+.discount-content__info .info-title p {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 51px;
+  color: #020202;
+}
+.discount-content__info .info-desc {
+  padding-top: 19px;
+}
+.discount-content__info .info-desc p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  color: #020202;
+}
+.discount-content__info .info-btn {
+  margin-top: 36px;
+  position: relative;
+  z-index: 200;
+}
+.discount-content__info .info-btn button {
+  width: 234px;
+  height: 67px;
+  background: #020202;
+  border: 4px solid #e6d56a;
+  transition: all 0.4s;
+  box-shadow: inset 0px 0px 0px 0px #e6d56a;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e6d56a;
+}
+.discount-content__info .info-btn button:hover {
+  box-shadow: inset 0px 0px 0px 6px #e6d56a;
+}
+@media (max-width: 600px) {
+  .discount-title {
+    margin-top: 17px;
+  }
+  .discount-title p {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .discount-content {
+    position: relative;
+    padding-bottom: 53px;
+  }
+  .discount-content__img img {
+    max-width: 100%;
+  }
+  .discount-content .info-show {
+    position: relative;
+  }
+  .discount-content__info {
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+  }
+  .discount-content__info .info-btn button {
+    height: 53px;
+    width: 100%;
+  }
+  .discount-content__info .info-title p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .discount-content__info .info-desc p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

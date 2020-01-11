@@ -71,3 +71,52 @@
         }
     }
 }
+@media (max-width: 600px) {
+    .discount{
+        &-title{
+            margin-top: 17px;
+            p{
+                font-size: 30px;
+                line-height: 37px;
+            }
+        }
+        &-content{
+            position: relative;
+            padding-bottom: 53px;
+            &__img{
+                img{
+                    max-width: 100%;
+                }
+            }
+            .info-show{
+                position: relative;
+
+            }
+            &__info{
+                padding-left: 0;
+                padding-right: 0;
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+                .info-btn{
+                    button{
+                        height: 53px;
+                        width: 100%;
+                    }
+                }
+                .info-title{
+                    p{
+                        font-size: 20px;
+                        line-height: 24px;
+                    }
+                }
+                .info-desc{
+                    p{
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

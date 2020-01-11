@@ -140,3 +140,40 @@
         justify-content: center;
     }
 }
+@media (max-width: 600px) {
+    .question{
+        &-img{
+            display: none;
+        }
+        &-wrapper{
+            padding: 23px 17px;
+        }
+        &-step{
+            p{
+                font-size: 16px;
+                line-height: 27px;
+                letter-spacing: 0.1em;
+            }
+        }
+        &-title{
+            p{
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+        &-checklist{
+            .check{
+                width: 100%;
+                padding-right: 0;
+                &-content{
+                    height: 40px;
+                }
+            }
+        }
+        &-btn{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 15px;
+        }
+    }
+}

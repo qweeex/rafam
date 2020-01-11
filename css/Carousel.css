@@ -8,6 +8,9 @@
 .carousel-wrapper {
   overflow: hidden;
 }
+.carousel-slide img {
+  width: 100%;
+}
 .carousel-prev {
   width: 94px;
   background: #EAD772;
@@ -68,6 +71,15 @@
 }
 .carousel-thumb .slide-thumb:nth-last-child(1) {
   margin-right: 0;
+}
+@media (max-width: 1050px) {
+  .carousel-slide img {
+    width: 100%;
+  }
+  .carousel-prev,
+  .carousel-next {
+    width: 50px;
+  }
 }
 @media (max-width: 600px) {
   .carousel {

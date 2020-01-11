@@ -52,11 +52,11 @@
                 text-transform: uppercase;
                 background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;    
+                -webkit-text-fill-color: transparent;
                 span{
                     background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
                     -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;    
+                    -webkit-text-fill-color: transparent;
                     font-weight: 900;
                     font-size: 30px;
                     line-height: 51px;
@@ -67,7 +67,7 @@
         }
     }
     &-men{
-        position: absolute; 
+        position: absolute;
         bottom: -44px;
         right: 282px;
     }
@@ -75,5 +75,78 @@
         bottom: -45px;
         right: 105px;
         position: absolute;
+    }
+}
+@media (max-width: 1050px) {
+    .founder{
+        height: auto;
+        background-position: left;
+        &-order{
+            order: -1;
+        }
+        &-image{
+            margin-left: -15px;
+            margin-right: 15px;
+            width: 110%;
+            img{
+                width: 100%;
+                height: 200px;
+            }
+        }
+        &-men{
+            bottom: 0;
+            left: 50px;
+            img{
+                width: 89px;
+                height: 188px;
+            }
+        }
+        &-video{
+            bottom: auto;
+            right: 30px;
+            top: 30px;
+            img{
+                width: 116px;
+                height: 116px;
+            }
+        }
+        &-content{
+            text-align: left;
+            &_text{
+                padding-right: 0;
+                .text-subtitle{
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: 0.2em;
+                    text-align: left;
+                }
+                .text-title{
+                    font-size: 22px;
+                    line-height: 27px;
+                    text-align: left;
+                }
+            }
+            &_intro{
+                background: transparent;
+                padding: 0;
+                font-size: 14px;
+                line-height: 17px;
+            }
+            &_desc{
+                padding-left: 0;
+                padding-top: 30px;
+                padding-bottom: 20px;
+                p{
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.2em;
+                    span{
+                        font-size: 22px;
+                        line-height: 38px;
+                        letter-spacing: 0.2em;
+                    }
+                }
+            }
+        }
     }
 }
