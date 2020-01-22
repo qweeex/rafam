@@ -137,7 +137,63 @@
     margin-right: 0 !important;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+  .photos {
+    margin-top: 140px;
+  }
+  .photos-title p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .photos-insta {
+    padding-top: 15px;
+    padding-bottom: 24px;
+  }
+  .photos-insta__text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .photos-insta__btn {
+    margin-top: 15px;
+  }
+  .photos-slider {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: auto;
+  }
+  .photos-arrows {
+    flex-direction: row;
+    bottom: 0;
+  }
+  .photos-arrows__top {
+    transform: rotate(-90deg);
+  }
+  .photos-arrows__bottom {
+    transform: rotate(-90deg);
+    margin-left: 16px;
+  }
+  .photos-wrapper {
+    margin-right: 0 !important;
+  }
+  .photos-wrapper::after {
+    background: linear-gradient(-90deg, #ffffff 18.42%, rgba(255, 255, 255, 0) 100%) !important;
+    height: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    width: 50%;
+  }
+  .photos-wrapper .photos-item {
+    width: 30%;
+    margin-right: 9px !important;
+    margin-bottom: 9px !important;
+  }
+  .photos-wrapper .photos-item img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media (max-width: 600px) {
   .photos {
     margin-top: 140px;
   }

@@ -147,7 +147,65 @@
         }
     }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+    .photos{
+        margin-top: 140px;
+        &-title{
+            p{
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+        &-insta{
+            padding-top: 15px;
+            padding-bottom: 24px;
+            &__text{
+                font-size: 25px;
+                line-height: 30px;
+            }
+            &__btn{
+                margin-top: 15px;
+            }
+        }
+        &-slider{
+            flex-direction: column-reverse;
+            align-items: flex-end;
+            height: auto;
+        }
+        &-arrows{
+            flex-direction: row;
+            bottom: 0;
+            &__top{
+                transform: rotate(-90deg);
+            }
+            &__bottom{
+                transform: rotate(-90deg);
+                margin-left: 16px;
+            }
+        }
+        &-wrapper{
+            margin-right: 0 !important;
+            &::after{
+                background: linear-gradient(-90deg, #ffffff 18.42%, rgba(255, 255, 255, 0) 100%) !important;
+                height: 100% !important;
+                right: 0 !important;
+                left: auto !important;
+                width: 50%;
+            }
+            .photos-item{
+                width: 30%;
+                margin-right: 9px !important;
+                margin-bottom: 9px !important;
+                img{
+                    height: 160px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
     .photos{
         margin-top: 140px;
         &-title{

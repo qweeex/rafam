@@ -105,6 +105,26 @@
 .certificate-img {
   margin-top: 35px;
 }
+@media (max-width: 1200px) {
+  .certificate {
+    margin-top: 20px;
+  }
+  .certificate-img img {
+    max-width: 100%;
+  }
+  .certificate-title p {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .certificate-desc p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .certificate-subtitle p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
 @media (max-width: 600px) {
   .certificate {
     margin-top: 20px;

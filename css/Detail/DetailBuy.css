@@ -357,7 +357,39 @@
 .detail-buy .detail-sumbit .text-danger span {
   font-weight: 700;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+  .detail-buy__aroma .aroma-size {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .detail-buy__aroma .aroma-size .text-danger {
+    padding-left: 10px;
+    padding-top: 0px;
+  }
+  .detail-buy__aroma .aroma-btn__content .content-quest__info {
+    right: -13px;
+    top: 38px;
+  }
+  .detail-buy__aroma .aroma-btn__content .content-quest__info:before {
+    left: auto;
+    top: -11px;
+    right: 28px;
+    transform: rotate(90deg);
+  }
+  .detail-buy__card {
+    margin-top: 30px;
+  }
+  .detail-buy .detail-sumbit__mob {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .detail-buy .detail-sumbit__mob .text-danger {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 600px) {
   .detail-buy .order-card {
     order: 1;
   }

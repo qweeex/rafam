@@ -69,6 +69,44 @@
 .discount-content__info .info-btn button:hover {
   box-shadow: inset 0px 0px 0px 6px #e6d56a;
 }
+@media (max-width: 1200px) {
+  .discount-title {
+    margin-top: 17px;
+  }
+  .discount-title p {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .discount-content {
+    position: relative;
+    padding-bottom: 53px;
+  }
+  .discount-content__img img {
+    max-width: 100%;
+  }
+  .discount-content .info-show {
+    position: relative;
+  }
+  .discount-content__info {
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+  }
+  .discount-content__info .info-btn button {
+    height: 53px;
+    width: 100%;
+  }
+  .discount-content__info .info-title p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .discount-content__info .info-desc p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
 @media (max-width: 600px) {
   .discount-title {
     margin-top: 17px;

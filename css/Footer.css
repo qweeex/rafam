@@ -155,7 +155,35 @@
     max-width: 750px;
   }
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+  .footer-phone {
+    text-align: center;
+  }
+  .footer-date {
+    text-align: center;
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+  }
+  .footer-social .social-btn {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .footer-pay {
+    width: max-content;
+    margin-bottom: 20px;
+  }
+  .footer-shop {
+    width: 100%;
+    max-width: 100%;
+  }
+  .footer-shop__list .footer-item {
+    width: 33.3%;
+  }
+}
+@media (max-width: 600px) {
   .footer-phone {
     text-align: center;
   }

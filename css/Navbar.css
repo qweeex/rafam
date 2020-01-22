@@ -116,8 +116,10 @@
   padding-right: 15px;
 }
 .navbar-menu__link:hover {
-  font-weight: bold;
   text-decoration: none;
+  background: linear-gradient(259.11deg, #e7d36f -9.27%, #b1973b 46.12%, #e6d569 108.67%), #d7c46c;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navbar-menu .menu-active {
   color: #D7C46C;
@@ -161,6 +163,11 @@
     padding-right: 15px;
   }
 }
+@media (max-width: 1300px) {
+  .navbar-menu__link {
+    padding-right: 10px;
+  }
+}
 @media (max-width: 1050px) {
   .navbar {
     position: relative;
@@ -202,7 +209,7 @@
   }
   .navbar-catalog__list {
     left: -15px;
-    width: calc(205%);
+    width: 181%;
     padding: 20px 30px;
   }
   .navbar-catalog__list .catalog-link {

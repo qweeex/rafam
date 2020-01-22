@@ -119,8 +119,11 @@
             color: #FFFFFF;
             padding-right: 15px;
             &:hover{
-                font-weight: bold;
+                //font-weight: bold;
                 text-decoration: none;
+                background: linear-gradient(259.11deg, #E7D36F -9.27%, #B1973B 46.12%, #E6D569 108.67%), #D7C46C;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
         }
         .menu-active{
@@ -170,6 +173,15 @@
         }
     }
 }
+@media (max-width: 1300px) {
+    .navbar{
+        &-menu{
+            &__link{
+                padding-right: 10px;
+            }
+        }
+    }
+}
 @media (max-width: 1050px){
     .navbar{
         position: relative;
@@ -215,7 +227,7 @@
             }
             &__list{
                 left: -15px;
-                width: calc(203% + 2px);
+                width: 181%;
                 padding: 20px 30px;
                 .catalog-link{
                     font-size: 15px;

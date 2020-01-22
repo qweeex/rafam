@@ -51,7 +51,52 @@
   top: 25px;
   z-index: 2;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+  .advantages {
+    margin-top: 49px;
+  }
+  .advantages-title {
+    margin-bottom: 53px;
+  }
+  .advantages-title p {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .advantages-card {
+    min-height: auto;
+    padding: 28px 18px;
+    margin-bottom: 27px;
+  }
+  .advantages-card__title p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .advantages-card__desc p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .advantages-images_1 {
+    display: none;
+  }
+  .advantages-images_1 img {
+    width: 128.01px;
+    height: auto;
+  }
+  .advantages-images_2 {
+    display: none;
+  }
+  .advantages-images_2 img {
+    width: 119px;
+  }
+  .advantages-images_3 {
+    display: none;
+  }
+  .advantages-images_3 img {
+    width: 119px;
+  }
+}
+@media (max-width: 600px) {
   .advantages {
     margin-top: 49px;
   }

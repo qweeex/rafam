@@ -27,7 +27,30 @@
   line-height: 27px;
   color: #020202;
 }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+  .about-bottle {
+    display: flex;
+    justify-content: center;
+  }
+  .about-bottle img {
+    height: 233px;
+  }
+  .about-card {
+    min-height: auto;
+    padding: 28px 18px;
+    margin-bottom: 20px;
+  }
+  .about-card__title p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .about-card__desc p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 600px) {
   .about-bottle {
     display: flex;
     justify-content: center;
