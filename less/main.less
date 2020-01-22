@@ -27,6 +27,23 @@ html{
 a{
     text-decoration: none;
 }
+a {
+    outline: none !important;
+    &:hover{
+        outline: none !important;
+    }
+    &:focus{
+        outline: none !important;
+    }
+}
+select,
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
 
 
 // Header

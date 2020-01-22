@@ -423,6 +423,23 @@ body {
 a {
   text-decoration: none;
 }
+a {
+  outline: none !important;
+}
+a:hover {
+  outline: none !important;
+}
+a:focus {
+  outline: none !important;
+}
+select,
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
 .header {
   background: url('/img/header-bg.jpg') center center no-repeat;
   background-size: cover;
